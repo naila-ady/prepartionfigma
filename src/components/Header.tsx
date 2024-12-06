@@ -26,7 +26,7 @@ const Header = () => {
            </div>
            </div>
     
-     <div className='h-[37px] flex-col flex-wrap items-center gap-3 inline-flex'>
+     <div className='w-auto h-[37px] flex-col flex-wrap items-center gap-3 inline-flex'>
       <div className='relative'>
         <input  type="text"  placeholder='What are you looking for?' className='bg-[rgba(245,245,245,1)] rounded-[4px]
        pt-[7px] pr-3 pb-[7px] pl-5 gap-[10px] font-[inter] text-[16px] inline-flex text-[#808080]'/>
