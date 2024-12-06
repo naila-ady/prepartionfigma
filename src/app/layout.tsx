@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import  {Poppins} from "next/font/google";
 import "./globals.css"; 
-import New from "@/components/New";
+import New from "@/components/Hero";
 import Topheader from "@/components/Topheader";
 import Header from "@/components/Header";
 
@@ -40,7 +40,7 @@ export default function RootLayout({
       >
         <Topheader/>
         <Header/>
-        {/* <New/> */}
+        
         {children}
       </body>
     </html>
